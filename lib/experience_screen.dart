@@ -28,7 +28,7 @@ class ExperienceScreen extends StatelessWidget {
     {"title": "HTML", "level": "Experienced", "icon": Icons.language},
     {"title": "CSS", "level": "Experienced", "icon": Icons.style},
     {"title": "JavaScript", "level": "Experienced", "icon": Icons.web},
-    {"title": "Python", "level": "Experienced", "icon": Icons.memory},
+    // {"title": "Python", "level": "Experienced", "icon": Icons.memory},
     {
       "title": "C/C++",
       "level": "Experienced",

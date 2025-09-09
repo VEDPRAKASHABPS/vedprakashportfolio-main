@@ -272,11 +272,87 @@ class ProjectsScreen extends StatelessWidget {
     final size = MediaQuery.of(context).size;
     final isMobile = size.width < 600;
 
+    // final List<Map<String, String>> projects = [
+
+    //   {
+    //     'title': 'Glamgo App',
+    //     'description':
+    //         'Flutter-based salon booking app for Ricoz with Firebase, REST APIs, and Figma-based UI integration.',
+    //     'image': 'assets/glamgoimg.jpeg',
+    //     'github': 'https://github.com/VEDPRAKASHABPS/glamgo_user.git',
+    //     'live': 'https://www.glamgo.in/',
+    //   },
+    //   {
+    //     'title': 'Chikitsa App',
+    //     'description':
+    //         'Developed UI in Flutter and integrated APIs for Vigorus Healthtech’s healthcare app. (Live on Play Store)',
+    //     'image': 'assets/chikitsaimg.png',
+    //     'github': 'https://github.com/VEDPRAKASHABPS/chikitsa_app.git',
+    //     'live': 'https://www.chikitsa.io/',
+    //   },
+
+    //   {
+    //     'title': 'Nadifit App',
+    //     'description':
+    //         'Built a wellness app at Nadifit® using Flutter, combining ancient health wisdom with modern tech. (Live on Play Store)',
+    //     'image': 'assets/nadifimg.png',
+    //     'github': 'https://github.com/VEDPRAKASHABPS/nadifit_app.git',
+    //     'live':
+    //         'https://play.google.com/store/apps/details?id=com.neubotz.nadifit',
+    //   },
+    //   {
+    //     'title': 'Cultyvateservice',
+    //     'description':
+    //         'Currently building an IoT-based AgriTech app at CultYvate using Flutter for real-time farm insights. (Live on Play Store)',
+    //     'image': 'assets/cultyvate.png',
+    //     'github': 'https://github.com/VEDPRAKASHABPS/cultyvate_serviceapp.git',
+    //     'live':
+    //         'https://play.google.com/store/apps/details?id=com.cultYvate.servicea',
+    //   },
+    // ];
+
+    // final List<Map<String, String>> projects = [
+    //   {
+    //     'title': 'Glamgo App',
+    //     'description':
+    //         'Flutter-based salon booking app for Ricoz with Firebase, REST APIs, and Figma-based UI integration to enhance user experience.',
+    //     'image': 'assets/glamgoimg.jpeg',
+    //     'github': 'https://github.com/VEDPRAKASHABPS/glamgo_user.git',
+    //     'live': 'https://www.glamgo.in/',
+    //   },
+    //   {
+    //     'title': 'Chikitsa App',
+    //     'description':
+    //         'Developed UI in Flutter and integrated APIs for Vigorus Healthtech’s healthcare app, providing seamless patient care management features.',
+    //     'image': 'assets/chikitsaimg.png',
+    //     'github': 'https://github.com/VEDPRAKASHABPS/chikitsa_app.git',
+    //     'live': 'https://www.chikitsa.io/',
+    //   },
+    //   {
+    //     'title': 'Nadifit App',
+    //     'description':
+    //         'Built a wellness app at Nadifit® using Flutter, combining ancient health wisdom with modern technology for improved lifestyle choices.',
+    //     'image': 'assets/nadifimg.png',
+    //     'github': 'https://github.com/VEDPRAKASHABPS/nadifit_app.git',
+    //     'live':
+    //         'https://play.google.com/store/apps/details?id=com.neubotz.nadifit',
+    //   },
+    //   {
+    //     'title': 'Cultyvateservice',
+    //     'description':
+    //         'Currently building an IoT-based AgriTech app at CultYvate using Flutter for real-time farm insights and efficient crop management solutions.',
+    //     'image': 'assets/cultyvate.png',
+    //     'github': 'https://github.com/VEDPRAKASHABPS/cultyvate_serviceapp.git',
+    //     'live':
+    //         'https://play.google.com/store/apps/details?id=com.cultYvate.servicea',
+    //   },
+    // ];
+
     final List<Map<String, String>> projects = [
       {
         'title': 'Glamgo App',
         'description':
-            'Flutter-based salon booking app for Ricoz with Firebase, REST APIs, and Figma-based UI integration.',
+            'Flutter-based salon booking app for Ricoz with Firebase, REST APIs, and Figma-based UI integration to enhance user experience and performance. \n                             ',
         'image': 'assets/glamgoimg.jpeg',
         'github': 'https://github.com/VEDPRAKASHABPS/glamgo_user.git',
         'live': 'https://www.glamgo.in/',
@@ -284,7 +360,7 @@ class ProjectsScreen extends StatelessWidget {
       {
         'title': 'Chikitsa App',
         'description':
-            'Developed UI in Flutter and integrated APIs for Vigorus Healthtech’s healthcare app. (Live on Play Store)',
+            'Developed UI in Flutter and integrated APIs for Vigorus Healthtech’s healthcare app, providing seamless patient care management features. \n(Live on Play Store)',
         'image': 'assets/chikitsaimg.png',
         'github': 'https://github.com/VEDPRAKASHABPS/chikitsa_app.git',
         'live': 'https://www.chikitsa.io/',
@@ -292,7 +368,7 @@ class ProjectsScreen extends StatelessWidget {
       {
         'title': 'Nadifit App',
         'description':
-            'Built a wellness app at Nadifit® using Flutter, combining ancient health wisdom with modern tech. (Live on Play Store)',
+            'Built a wellness app at Nadifit® using Flutter, combining ancient health wisdom with modern technology for improved lifestyle choices. \n(Live on Play Store)',
         'image': 'assets/nadifimg.png',
         'github': 'https://github.com/VEDPRAKASHABPS/nadifit_app.git',
         'live':
@@ -301,7 +377,7 @@ class ProjectsScreen extends StatelessWidget {
       {
         'title': 'Cultyvateservice',
         'description':
-            'Currently building an IoT-based AgriTech app at CultYvate using Flutter for real-time farm insights. (Live on Play Store)',
+            'Currently building an IoT-based AgriTech app at CultYvate using Flutter for real-time farm insights and efficient crop management solutions. \n(Live on Play Store)',
         'image': 'assets/cultyvate.png',
         'github': 'https://github.com/VEDPRAKASHABPS/cultyvate_serviceapp.git',
         'live':
